@@ -40,6 +40,3 @@ fig.legend(data['diet_group'].unique(), loc='upper right', title='diet_group')
 
 plt.show()
 
-#哪种饮食对环境最有利？
-#最好的饮食和最坏的饮食之间的差异是什么？
-#在这些数据中是否有任何有趣的模式或趋势？
