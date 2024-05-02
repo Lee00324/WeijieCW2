@@ -1,7 +1,6 @@
 import pandas as pd
 import plotly.express as px
 
-# 加载数据
 df = pd.read_csv('results.csv')
 
 fig1 = px.treemap(df, path=['age_group', 'diet_group'], values='mean_ghgs_ch4',
